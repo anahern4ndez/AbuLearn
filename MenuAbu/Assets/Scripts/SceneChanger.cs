@@ -29,8 +29,11 @@ public class SceneChanger : MonoBehaviour {
 	public void OnStartGame(string scene)
 	{
 		SceneManager.LoadScene (scene); //cambio de escenas
-		if (scene == "menuPrincipal") {
+		if (scene == "menuPrincipal" || GameController.instance.thisScene == "menuPrincipal") {
 			PlayerPrefs.SetInt ("Score", 0); //cuando el juego inicie, también se reinicia el puntaje de la jugada actual
 		} 
+	}
+	public void quitGame() {
+		Application.Quit();
 	}
 }

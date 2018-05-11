@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.UIElements;
+using System.Runtime.CompilerServices;
+using System;
+using UnityEngine.UI;
 
 /** 
  * 
@@ -14,14 +17,13 @@ public class Letter : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
-		GameController.instance.listaBotones.Add (this);
-		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (GameController.instance.getLetterInstances () == 3) {
+			this.gameObject.SetActive (false);
+		}
 	}
 
 	/**
@@ -35,8 +37,10 @@ public class Letter : MonoBehaviour {
 			GameController.instance.setLetterInstances(1);
 			this.gameObject.SetActive (false); //para hacer la letra "desaparecer"
 		} else {
+			GameController.instance.score -= 2;
 			GameController.instance.setWrongTaps(1);
 		}
 			
 	}
+
 }

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Nivel5_Vocales.unity
+- path: Assets/Scenes/menuPrincipal.unity
   isLoaded: 1
   isActive: 1
