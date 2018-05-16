@@ -9,6 +9,23 @@ Assets/Scenes/Nivel1_ABC.unity
 Assets/Scenes/Nivel1_Numeros.unity
 Assets/Scenes/Nivel4_Vocales.unity
 Assets/Scenes/Nivel5_Vocales.unity
+Assets/Scenes/Nivel3_Numeros.unity
+Assets/Scenes/Nivel2_Numeros.unity
+Assets/Scenes/Nivel4_Numeros.unity
+Assets/Scenes/Nivel5_Numeros.unity
+Assets/Scenes/Nivel14_ABC.unity
+Assets/Scenes/Nivel13_ABC.unity
+Assets/Scenes/Nivel12_ABC.unity
+Assets/Scenes/Nivel11_ABC.unity
+Assets/Scenes/Nivel10_ABC.unity
+Assets/Scenes/Nivel9_ABC.unity
+Assets/Scenes/Nivel8_ABC.unity
+Assets/Scenes/Nivel7_ABC.unity
+Assets/Scenes/Nivel6_ABC.unity
+Assets/Scenes/Nivel5_ABC.unity
+Assets/Scenes/Nivel4_ABC.unity
+Assets/Scenes/Nivel3_ABC.unity
+Assets/Scenes/Nivel2_ABC.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 970a95104359198fe1a98ef48655de8c UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -196,6 +213,7 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
+66e9817608fbee6e6c4d0dc1f07f4e0f Assembly-CSharp.dll:.ScrollingBackground
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
 60b2bb652410a5867a5ab9a01cd38461 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkDiscovery
@@ -210,6 +228,7 @@ e9bdabf9265d758d56f01bb188916fa8 UnityEngine.Networking.dll:UnityEngine.Networki
 3f32f08a64daf40b09ed864d96fe3840 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 73843688b51256aed059f049c540bca8 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 528ea1fd7c01796fc60c4e2f172ea229 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
+05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DontDestroy
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.Letter
 05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.levelScripOP
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.TestRunner.dll:UnityEngine.TestTools.TestRunner.Callbacks.PlayModeRunnerCallback
@@ -295,5 +314,3 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 3d1b89310e77c34bc0c8d7132231345c Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 05524b8f659e7bfe5756d1335fec24ba Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
-05524b8f659e7bfe5756d1335fec24ba Assembly-CSharp.dll:.DontDestroy
-66e9817608fbee6e6c4d0dc1f07f4e0f Assembly-CSharp.dll:.ScrollingBackground

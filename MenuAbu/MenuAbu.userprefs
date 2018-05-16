@@ -1,17 +1,17 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DontDestroy.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameController.cs">
     <Files>
-      <File FileName="Assets/Scripts/ScrollingBackground.cs" Line="19" Column="43" />
-      <File FileName="Assets/Scripts/GameController.cs" Line="18" Column="24" />
-      <File FileName="Assets/Scripts/Letter.cs" Line="40" Column="39" />
-      <File FileName="Assets/Scripts/SceneChanger.cs" Line="10" Column="63" />
+      <File FileName="Assets/Scripts/Letter.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/ScrollingBackground.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/GameController.cs" Line="43" Column="29" />
+      <File FileName="Assets/Scripts/SceneChanger.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/InfiniteBackground.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/DontDestroy.cs" Line="10" Column="43" />
       <File FileName="Assets/Scripts/levelScripOP.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/levelScriptTest.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/infini.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/firstScreenOP.cs" Line="17" Column="5" />
+      <File FileName="Assets/Scripts/firstScreenOP.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

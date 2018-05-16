@@ -53,3 +53,42 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Nivel5_Numeros.unity
     guid: 2a5f00a67b64f41648369f5e537bc6ee
+  - enabled: 1
+    path: Assets/Scenes/Nivel14_ABC.unity
+    guid: ff703e1fee0b2479dac28e23daac403a
+  - enabled: 1
+    path: Assets/Scenes/Nivel13_ABC.unity
+    guid: 8c47318d1699e47edbecf759c718cc3c
+  - enabled: 1
+    path: Assets/Scenes/Nivel12_ABC.unity
+    guid: 593cb985c14fb4aaa8800e8d84af216d
+  - enabled: 1
+    path: Assets/Scenes/Nivel11_ABC.unity
+    guid: 8ce50d61722bd4053851345ca3f73060
+  - enabled: 1
+    path: Assets/Scenes/Nivel10_ABC.unity
+    guid: 232bd1c19e75b4fa29701a16ade5ccae
+  - enabled: 1
+    path: Assets/Scenes/Nivel9_ABC.unity
+    guid: b46e4975f6ae84ce69f72cdcce854db0
+  - enabled: 1
+    path: Assets/Scenes/Nivel8_ABC.unity
+    guid: ca661bcfe5ef248de9418df275726cab
+  - enabled: 1
+    path: Assets/Scenes/Nivel7_ABC.unity
+    guid: 3e297a8bccf5c4635ac3d9f5379b1e4e
+  - enabled: 1
+    path: Assets/Scenes/Nivel6_ABC.unity
+    guid: 8f28c8d1cc65947988f2a35431a838b6
+  - enabled: 1
+    path: Assets/Scenes/Nivel5_ABC.unity
+    guid: 43f71c0eb63bc4bb6a59335a302b60a7
+  - enabled: 1
+    path: Assets/Scenes/Nivel4_ABC.unity
+    guid: 5be253e3fffc44b80bb089910e25d0a3
+  - enabled: 1
+    path: Assets/Scenes/Nivel3_ABC.unity
+    guid: 1b8c7203fe1cd4d91a022a1307e3a285
+  - enabled: 1
+    path: Assets/Scenes/Nivel2_ABC.unity
+    guid: 7bf2719548e514094a8930d3f23c2345
