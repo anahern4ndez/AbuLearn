@@ -1808,8 +1808,8 @@ MonoBehaviour:
   Pointstxt: {fileID: 1312694168}
   GO: {fileID: 1990024147}
   winnerTxt: {fileID: 1580634761}
-  nextscene: Nivel3_Numeros
-  thisScene: Nivel2_Numeros
+  nextscene: menuPrincipal
+  thisScene: Nivel5_Numeros
 --- !u!4 &1097260018
 Transform:
   m_ObjectHideFlags: 0
