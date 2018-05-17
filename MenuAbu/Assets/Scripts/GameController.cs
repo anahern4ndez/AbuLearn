@@ -30,6 +30,7 @@ public class GameController : MonoBehaviour {
 		Pointstxt.text = PlayerPrefs.GetInt ("Score").ToString (); // para que muestre en pantalla el score actual
 		score = PlayerPrefs.GetInt ("Score");
 		winnerTxt.gameObject.SetActive (false);
+		GO.gameObject.SetActive (false);
 	}
 
 	// Update is called once per frame
@@ -43,7 +44,7 @@ public class GameController : MonoBehaviour {
 				PlayerPrefs.SetInt ("Highscore", score); //en el caso que el score actual sea mayor que el highscore guardado
 			}
 			if (timeOver > 3) { 
-				sm.OnStartGame (thisScene);// avanzar de nivel
+				sm.OnStartGame (thisScene);// reiniciar el nicvel
 				sm.highscore. text = PlayerPrefs.GetInt ("Highscore").ToString (); // para que cambie el texto que aparece en el menu
 				// que se guarde el actual como el highscore
 				timeOver = 0;
@@ -82,5 +83,11 @@ public class GameController : MonoBehaviour {
 	public int getLetterInstances()
 	{
 		return letterInstances;
+	}
+	public void muteSound()
+	{
+		GameObject[] objs = GameObject.FindGameObjectsWithTag ("Music");
+		AudioSource audio = objs [0].GetComponent <AudioSource> ();
+		audio.mute = !audio.mute;
 	}
 }

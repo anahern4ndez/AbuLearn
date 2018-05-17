@@ -21,7 +21,7 @@ public class Letter : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (GameController.instance.getLetterInstances () == 3) {
+		if (GameController.instance.getLetterInstances () == 3 || GameController.instance.gameOver == true) {
 			this.gameObject.SetActive (false);
 		}
 	}
@@ -37,8 +37,10 @@ public class Letter : MonoBehaviour {
 			GameController.instance.setLetterInstances(1);
 			this.gameObject.SetActive (false); //para hacer la letra "desaparecer"
 		} else {
-			GameController.instance.score -= 2;
-			GameController.instance.setWrongTaps(1);
+			if (GameController.instance.score >= 0) {
+				GameController.instance.score -= 2;
+				GameController.instance.setWrongTaps(1);
+			}
 		}
 			
 	}

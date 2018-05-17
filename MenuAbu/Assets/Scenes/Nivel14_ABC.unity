@@ -149,6 +149,7 @@ RectTransform:
   - {fileID: 929911179}
   - {fileID: 617344486}
   - {fileID: 132893663}
+  - {fileID: 1062071726}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -311,7 +312,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 132893662}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 349.19998, y: 359.99997, z: -10799.999}
+  m_LocalPosition: {x: 353, y: 273, z: -10799.999}
   m_LocalScale: {x: 61.992527, y: 53.30782, z: 120}
   m_Children: []
   m_Father: {fileID: 31561697}
@@ -397,7 +398,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 594.7649, y: -391.04425}
+  m_AnchoredPosition: {x: 528.2715, y: -341.1742}
   m_SizeDelta: {x: 148.4, y: 137.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &322859741
@@ -1465,7 +1466,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 347, y: -265}
+  m_AnchoredPosition: {x: 334.5326, y: -231.75327}
   m_SizeDelta: {x: 148.4, y: 137.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &876050524
@@ -1807,7 +1808,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1832342032}
         m_MethodName: gotoMainMenu
         m_Mode: 1
         m_Arguments:
@@ -1889,7 +1890,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -196.58516, y: -377.8167}
+  m_AnchoredPosition: {x: -205, y: -295}
   m_SizeDelta: {x: 148.4, y: 137.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1046175508
@@ -2007,6 +2008,80 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1046175506}
+--- !u!1 &1062071725
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1062071726}
+  - component: {fileID: 1062071727}
+  - component: {fileID: 1062071728}
+  m_Layer: 5
+  m_Name: Lose
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1062071726
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1062071725}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9995999, y: 0.9995999, z: 0.9995999}
+  m_Children: []
+  m_Father: {fileID: 31561697}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 15.314934, y: -55.06165}
+  m_SizeDelta: {x: 1194.3, y: 433.1}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &1062071727
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1062071725}
+--- !u!114 &1062071728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1062071725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.867, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 5e43684539e034159ab5cb2babcf2878, type: 3}
+    m_FontSize: 124
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 124
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "\xA1HAS PERDIDO!  :(\nSE REINICIAR\xC1 EL NIVEL"
 --- !u!1 &1100629483
 GameObject:
   m_ObjectHideFlags: 0
@@ -2039,7 +2114,7 @@ MonoBehaviour:
   score: 0
   sm: {fileID: 1658708855}
   Pointstxt: {fileID: 617344488}
-  GO: {fileID: 0}
+  GO: {fileID: 1062071728}
   winnerTxt: {fileID: 1393573623}
   nextscene: menuPrincipal
   thisScene: Nivel14_ABC
@@ -2166,7 +2241,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 136, y: -384}
+  m_AnchoredPosition: {x: 73.66243, y: -317.5066}
   m_SizeDelta: {x: 148.4, y: 137.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1240338245
@@ -2320,7 +2395,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -648.1593, y: -268.96704}
+  m_AnchoredPosition: {x: -556.73083, y: -156.7594}
   m_SizeDelta: {x: 148.4, y: 137.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1247012110
@@ -2758,7 +2833,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -478, y: -440}
+  m_AnchoredPosition: {x: -432.28577, y: -307.01306}
   m_SizeDelta: {x: 148.4, y: 137.98}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1440954112
