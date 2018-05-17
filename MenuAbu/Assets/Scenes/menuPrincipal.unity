@@ -388,7 +388,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: HAZ CLICK PARA EMPEZAR
+  m_Text: HAZ CLICK EN PLAY PARA EMPEZAR
 --- !u!222 &115602247
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1083,6 +1083,7 @@ GameObject:
   - component: {fileID: 1479881319}
   - component: {fileID: 1479881318}
   - component: {fileID: 1479881317}
+  - component: {fileID: 1479881320}
   m_Layer: 5
   m_Name: btn_info
   m_TagString: Untagged
@@ -1183,6 +1184,36 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1479881315}
+--- !u!114 &1479881320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1479881315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 339715908}
+          m_MethodName: OnStartGame
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Instrucciones
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
 --- !u!1 &1582067784
 GameObject:
   m_ObjectHideFlags: 0
@@ -1587,8 +1618,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.012511816, y: 60.4}
-  m_SizeDelta: {x: 146.1, y: 120.8}
+  m_AnchoredPosition: {x: 3, y: 84}
+  m_SizeDelta: {x: 187.3, y: 175.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2018512233
 MonoBehaviour:
