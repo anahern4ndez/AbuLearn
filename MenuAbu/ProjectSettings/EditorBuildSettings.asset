@@ -92,3 +92,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Nivel2_ABC.unity
     guid: 7bf2719548e514094a8930d3f23c2345
+  - enabled: 1
+    path: Assets/Scenes/Instrucciones.unity
+    guid: d75f6bedb5b2d414ab107c86da8c4205

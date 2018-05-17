@@ -26,6 +26,7 @@ Assets/Scenes/Nivel5_ABC.unity
 Assets/Scenes/Nivel4_ABC.unity
 Assets/Scenes/Nivel3_ABC.unity
 Assets/Scenes/Nivel2_ABC.unity
+Assets/Scenes/Instrucciones.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 970a95104359198fe1a98ef48655de8c UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -213,6 +214,7 @@ d2a2bd333db22f480a8589e167314ecc Vuforia.UnityExtensions.dll:Vuforia.UserDefined
 15bea26698002c6c4a3087131232ce5c Vuforia.UnityExtensions.dll:Vuforia.WordBehaviour
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
+00155c3532e2b6946dacf8a456ff84ec Assembly-CSharp.dll:.Audio
 66e9817608fbee6e6c4d0dc1f07f4e0f Assembly-CSharp.dll:.ScrollingBackground
 fc1e0f4d8439d9928083474691511a13 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
